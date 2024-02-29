@@ -1,0 +1,115 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-image: url('Green White Yellow Modern Football Tournament Banner.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding: 100px 0; /* Ajuste o espaçamento superior e inferior conforme necessário */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px 0;
+}
+
+/* Estilo da seção de destaque */
+.destaque {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.destaque h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.destaque article {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.destaque article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.destaque article h3 {
+    color: #007bff;
+}
+
+.destaque article p {
+    color: #666;
+}
+
+.destaque article a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.destaque article a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo da seção de últimas notícias */
+.ultimas-noticias article {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.ultimas-noticias article:last-child {
+    margin-bottom: 0;
+}
+
+.ultimas-noticias article h3 {
+    color: #007bff;
+}
+
+.ultimas-noticias article p {
+    color: #666;
+}
+
+.ultimas-noticias article a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.ultimas-noticias article a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    text-align: center;
+}
